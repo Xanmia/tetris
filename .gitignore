@@ -1,0 +1,4 @@
+/node_modules
+/_build
+gulpfile.js
+.DS_Store
