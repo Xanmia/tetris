@@ -5,7 +5,7 @@ $.test = function () {
     var nextPiece = new $.nextPiece();
     nextPiece.new();
 
-    var currentPiece =  new $.line(utils.pickRandomFromObject($.pieces),board.cellSize, board.offsetX, board.offsetY);
+    var currentPiece =  new $.line($.utils.pickRandomFromObject($.pieces),board.cellSize, board.offsetX, board.offsetY);
 
 
     this.update = function () {
